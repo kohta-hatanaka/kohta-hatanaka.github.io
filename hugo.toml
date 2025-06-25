@@ -1,0 +1,23 @@
+baseURL = 'https://duckuwa.com/'
+languageCode = 'ja-jp'
+title = 'Duckuwa'
+theme = 'github.com/kohta-hatanaka/paperesque'
+copyright = '© 2024 Kohta Hatanaka'
+
+buildDrafts = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.parser.attribute]
+      block = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+pygmentsUseClasses = true
+
+[params]
+[[params.topmenu]]
+  name = "GitHub"
+  url = "https://github.com/kohta-hatanaka"
