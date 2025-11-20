@@ -19,5 +19,9 @@ pygmentsUseClasses = true
 
 [params]
 [[params.topmenu]]
+  name = "Tag"
+  url = "/tags"
+
+[[params.topmenu]]
   name = "GitHub"
   url = "https://github.com/kohta-hatanaka"

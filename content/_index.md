@@ -2,7 +2,7 @@
 date: 2025-06-25T10:47:16+09:00
 title: Duckuwa
 display_section: diary
-display_section_expanded_title: di
+display_section_expanded_title: 日記 
 ---
 
 ![alt text](かも.png)
