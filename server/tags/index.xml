@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Duckuwa</title>
+    <link>https://duckuwa.com/tags/</link>
+    <description>Recent content in Tags on Duckuwa</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <copyright>© 2024 Kohta Hatanaka</copyright>
+    <lastBuildDate>Wed, 25 Jun 2025 17:03:56 +0900</lastBuildDate>
+    <atom:link href="https://duckuwa.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memorial</title>
+      <link>https://duckuwa.com/tags/memorial/</link>
+      <pubDate>Wed, 25 Jun 2025 17:03:56 +0900</pubDate>
+      <guid>https://duckuwa.com/tags/memorial/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html
+  lang="ja-jp"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://duckuwa.com//apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://duckuwa.com//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://duckuwa.com//favicon-16x16.png">
+<link rel="manifest" href="https://duckuwa.com//site.webmanifest">
+<link rel="mask-icon" href="https://duckuwa.com//safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" data-tag="light" media="(prefers-color-scheme: light)" content="#00223E" />
+<meta name="theme-color" data-tag="dark" media="(prefers-color-scheme: dark)" content="#08151E" />
+
+
+
+<meta name="keywords" content="">
+
+<meta property="og:url" content="https://duckuwa.com/diary/250626/">
+  <meta property="og:site_name" content="Duckuwa">
+  <meta property="og:title" content="ウェブサイトの構成">
+  <meta property="og:description" content="せっかく作ったことだし、このサイトの構成を紹介する。
+とても簡単に作れたので、手軽に独自ドメインのサイトほしいな～って思う人はぜひ参考に。
+Github Pagesを使って公開するので、サーバー管理などは学べないので悪しからず。
+費用：無料！(とりあえず一年間は)
+技術スタック：Hugo, Github(Pages, Actions)
+ドメイン取得 お名前ドットコムから無料で取得した。
+1年後から更新料がかかるので注意。
+構築 最近バイオインフォ研でも使っているHugoを使って構築した。インストール方法はググれ1
+マークダウンでコンテンツを作ればよしなにやってくれるので大変使いやすく気に入っている。
+色々構成はあるだろう2が、私はmoduleを使ってテーマとコンテンツを分離するのが好みである。
+利点
+Hugoのテーマは大体githubレポジトリとして公開されているが、forkして自分で管理できる。shortcodeの追加などのカスタマイズも余計な事考えなくていい。 分離しているのでテーマ変更が容易 欠点
+レポジトリが分かれるので、若干管理が面倒 あんまり主流じゃない？かも 方法 気になるテーマを探してgithubレポジトリをフォークする。 https://themes.gohugo.io/ https://github.com/topics/hugo-theme
+多分このあたりで探すといい。
+ちなみにこのページはpaperesqueというテーマを使っている。 Gihub Pagesとしてサイト用のgihubレポジトリを作る。
+(User名).github.ioという名前で作る事。
+別のレポジトリ名でも行けるとは思うが、デフォルトに従っておいた方が無難。
+適当にREADME.mdか.gitignoreでも追加して、コミット-&gt;ローカルにクローンしておくこと。3 Deploy なるべく簡単に作れるように
+バージョンのunmatchが問題となりやすいので注意 ↩︎
+例えばレポジトリではgit submoduleなどが紹介されている場合が多い ↩︎
+ローカルとリモートが連携できれば、別にレポジトリ作ってから連携させる方法でも何でも構わない。 ↩︎">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="diary">
+    <meta property="article:published_time" content="2025-06-26T18:34:01+09:00">
+    <meta property="article:modified_time" content="2025-06-26T18:34:01+09:00">
+
+<meta property="og:site_name" content="Duckuwa" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ウェブサイトの構成"/>
+<meta name="twitter:description" content="せっかく作ったことだし、このサイトの構成を紹介する。
+とても簡単に作れたので、手軽に独自ドメインのサイトほしいな～って思う人はぜひ参考に。
+Github Pagesを使って公開するので、サーバー管理などは学べないので悪しからず。
+費用：無料！(とりあえず一年間は)
+技術スタック：Hugo, Github(Pages, Actions)
+ドメイン取得
+お名前ドットコムから無料で取得した。
+1年後から更新料がかかるので注意。
+構築
+最近バイオインフォ研でも使っているHugoを使って構築した。インストール方法はググれ1
+マークダウンでコンテンツを作ればよしなにやってくれるので大変使いやすく気に入っている。
+色々構成はあるだろう2が、私はmoduleを使ってテーマとコンテンツを分離するのが好みである。
+利点
+
+Hugoのテーマは大体githubレポジトリとして公開されているが、forkして自分で管理できる。shortcodeの追加などのカスタマイズも余計な事考えなくていい。
+分離しているのでテーマ変更が容易
+
+欠点
+
+レポジトリが分かれるので、若干管理が面倒
+あんまり主流じゃない？かも
+
+方法
+
+気になるテーマを探してgithubレポジトリをフォークする。
+
+
+https://themes.gohugo.io/
+https://github.com/topics/hugo-theme
+多分このあたりで探すといい。
+ちなみにこのページはpaperesqueというテーマを使っている。
+
+
+Gihub Pagesとしてサイト用のgihubレポジトリを作る。
+(User名).github.ioという名前で作る事。
+別のレポジトリ名でも行けるとは思うが、デフォルトに従っておいた方が無難。
+適当にREADME.mdか.gitignoreでも追加して、コミット-&gt;ローカルにクローンしておくこと。3
+
+
+
+
+Deploy
+なるべく簡単に作れるように
+
+
+
+
+バージョンのunmatchが問題となりやすいので注意&#160;&#x21a9;&#xfe0e;
+
+
+例えばレポジトリではgit submoduleなどが紹介されている場合が多い&#160;&#x21a9;&#xfe0e;
+
+
+ローカルとリモートが連携できれば、別にレポジトリ作ってから連携させる方法でも何でも構わない。&#160;&#x21a9;&#xfe0e;
+
+
+"/>
+
+
+
+  <meta itemprop="name" content="ウェブサイトの構成">
+  <meta itemprop="description" content="せっかく作ったことだし、このサイトの構成を紹介する。
+とても簡単に作れたので、手軽に独自ドメインのサイトほしいな～って思う人はぜひ参考に。
+Github Pagesを使って公開するので、サーバー管理などは学べないので悪しからず。
+費用：無料！(とりあえず一年間は)
+技術スタック：Hugo, Github(Pages, Actions)
+ドメイン取得 お名前ドットコムから無料で取得した。
+1年後から更新料がかかるので注意。
+構築 最近バイオインフォ研でも使っているHugoを使って構築した。インストール方法はググれ1
+マークダウンでコンテンツを作ればよしなにやってくれるので大変使いやすく気に入っている。
+色々構成はあるだろう2が、私はmoduleを使ってテーマとコンテンツを分離するのが好みである。
+利点
+Hugoのテーマは大体githubレポジトリとして公開されているが、forkして自分で管理できる。shortcodeの追加などのカスタマイズも余計な事考えなくていい。 分離しているのでテーマ変更が容易 欠点
+レポジトリが分かれるので、若干管理が面倒 あんまり主流じゃない？かも 方法 気になるテーマを探してgithubレポジトリをフォークする。 https://themes.gohugo.io/ https://github.com/topics/hugo-theme
+多分このあたりで探すといい。
+ちなみにこのページはpaperesqueというテーマを使っている。 Gihub Pagesとしてサイト用のgihubレポジトリを作る。
+(User名).github.ioという名前で作る事。
+別のレポジトリ名でも行けるとは思うが、デフォルトに従っておいた方が無難。
+適当にREADME.mdか.gitignoreでも追加して、コミット-&gt;ローカルにクローンしておくこと。3 Deploy なるべく簡単に作れるように
+バージョンのunmatchが問題となりやすいので注意 ↩︎
+例えばレポジトリではgit submoduleなどが紹介されている場合が多い ↩︎
+ローカルとリモートが連携できれば、別にレポジトリ作ってから連携させる方法でも何でも構わない。 ↩︎">
+  <meta itemprop="datePublished" content="2025-06-26T18:34:01+09:00">
+  <meta itemprop="dateModified" content="2025-06-26T18:34:01+09:00">
+  <meta itemprop="wordCount" content="38">
+
+
+    <title>ウェブサイトの構成 || Duckuwa</title>
+    <link rel="canonical" href="https://duckuwa.com/diary/250626/" />
+
+    
+
+    
+<link rel="stylesheet" href="/css/paperesque.min.ae8189ace9909da7dd87891e91adb53e65169d7fd1bd09c7db1d232820efcad8.css" />
+<script type="text/javascript" src="/js/main.ed0b25e542f4cc8cdfea5ee819579125cd6129320fbfecee9c3e0484140cf964.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body
+  class="draft look-sheet-bkg"
+  lang="ja-jp">
+  <div class="navbar nav-bkg drop-shadow">
+    <nav class="content-container pagewide-bar-padding">
+      <span class="divider">/ </span>
+      <a href="/" >Duckuwa</a>
+      <span class="divider">/ </span>
+          <a href="/diary/">日記</a>
+      <ul class="list-unstyled right-links">
+
+  <li>
+    <a href="/tags">
+      <span class="post-title">Tag</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://github.com/kohta-hatanaka">
+      <span class="post-title">GitHub</span>
+    </a>
+  </li>
+
+</ul>
+<details id="right-links-details" class="right-links">
+  <summary></summary>
+  <ul class="drop-shadow">
+  
+    <li>
+      <a href="/tags">
+        <span class="post-title">Tag</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://github.com/kohta-hatanaka">
+        <span class="post-title">GitHub</span>
+      </a>
+    </li>
+  
+  </ul>
+</details>
+
+    </nav>
+  </div>
+  <article
+    id="main"
+    class="content-container look-sheet article-pad-v "
+    itemscope
+    itemtype="https://schema.org/Article" >
+  <meta itemprop="author" content="" />
+  <meta itemprop="publisher" content="" />
+  <meta itemprop="image" content="" />
+  <h1 itemprop="name" id="title">ウェブサイトの構成</h1>
+  <meta itemprop="headline" content="ウェブサイトの構成" />
+  
+  
+    
+      <div class="post-date"><span itemprop="datePublished">June 26, 2025</span></div>
+      <meta itemprop="dateModified" content="June 26, 2025"/>
+    
+  
+  
+    <div class="post-date">38 words</div>
+  
+  <div itemprop="articleBody" id="content" class="article-body margin-top-2em">
+    <p>せっかく作ったことだし、このサイトの構成を紹介する。<br>
+とても簡単に作れたので、手軽に独自ドメインのサイトほしいな～って思う人はぜひ参考に。<br>
+Github Pagesを使って公開するので、サーバー管理などは学べないので悪しからず。</p>
+<p>費用：無料！(とりあえず一年間は)<br>
+技術スタック：Hugo, Github(Pages, Actions)</p>
+<h1 id="ドメイン取得">ドメイン取得</h1>
+<p>お名前ドットコムから無料で取得した。<br>
+1年後から更新料がかかるので注意。</p>
+<h1 id="構築">構築</h1>
+<p>最近<a href="https://hu-bioinfo.github.io/">バイオインフォ研</a>でも使っているHugoを使って構築した。インストール方法はググれ<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><br>
+マークダウンでコンテンツを作ればよしなにやってくれるので大変使いやすく気に入っている。</p>
+<p>色々構成はあるだろう<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>が、私はmoduleを使ってテーマとコンテンツを分離するのが好みである。</p>
+<p>利点</p>
+<ul>
+<li>Hugoのテーマは大体githubレポジトリとして公開されているが、forkして自分で管理できる。shortcodeの追加などのカスタマイズも余計な事考えなくていい。</li>
+<li>分離しているのでテーマ変更が容易</li>
+</ul>
+<p>欠点</p>
+<ul>
+<li>レポジトリが分かれるので、若干管理が面倒</li>
+<li>あんまり主流じゃない？かも</li>
+</ul>
+<h2 id="方法">方法</h2>
+<ol>
+<li>気になるテーマを探してgithubレポジトリをフォークする。</li>
+</ol>
+<ul>
+<li><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li>
+<li><a href="https://github.com/topics/hugo-theme">https://github.com/topics/hugo-theme</a><br>
+多分このあたりで探すといい。<br>
+ちなみにこのページは<a href="https://github.com/capnfabs/paperesque">paperesque</a>というテーマを使っている。</li>
+</ul>
+<ol start="2">
+<li>Gihub Pagesとしてサイト用のgihubレポジトリを作る。<br>
+(User名).github.ioという名前で作る事。<br>
+別のレポジトリ名でも行けるとは思うが、デフォルトに従っておいた方が無難。<br>
+適当にREADME.mdか.gitignoreでも追加して、コミット-&gt;ローカルにクローンしておくこと。<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+</ol>
+<ol start="3">
+<li></li>
+</ol>
+<h1 id="deploy">Deploy</h1>
+<p>なるべく簡単に作れるように</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>バージョンのunmatchが問題となりやすいので注意&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>例えばレポジトリではgit submoduleなどが紹介されている場合が多い&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>ローカルとリモートが連携できれば、別にレポジトリ作ってから連携させる方法でも何でも構わない。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  </div>
+</article>
+
+  
+    
+  
+  
+  
+  
+    <div class="nav-bkg-50 content-container-narrow-pad bottom-links text-0p75 drop-shadow">
+      <nav class="flex-row">
+      
+      <a href="https://duckuwa.com/diary/250625/" class="flex-row v-center no-underline"  style="max-width:45%;">
+        <span class="text-1p5">←</span>&nbsp;<span class="re-underline">Previous: 最初の記事</span>
+      </a>
+      
+      
+        <a href="https://duckuwa.com/diary/250711/" class="flex-row v-center no-underline" style="max-width: 45%;">
+        <span class="re-underline">Next: 250711</span>&nbsp;<span class="text-1p5">→</span>
+        </a>
+      
+      </nav>
+    </div>
+  
+
+  
+  </body>
+</html>

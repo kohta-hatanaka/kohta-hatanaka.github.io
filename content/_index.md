@@ -1,15 +1,13 @@
 ---
-date: 2025-06-25T10:47:16+09:00
 title: Duckuwa
+date: 2025-06-25T10:47:16+09:00
 display_section: diary
 display_section_expanded_title: 日記 
 ---
 
 ![alt text](かも.png)
 
-### 畑中 宏太
 2001年生まれ  
-岐阜県・愛知県育ち 北海道在住
 
 趣味：Viola、プログラミング  
 好きな食べ物：ビーフシチュー
